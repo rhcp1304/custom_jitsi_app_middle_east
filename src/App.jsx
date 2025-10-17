@@ -278,7 +278,7 @@ function App() {
         config.jwt = jwtToken.trim();
       }
 
-      const api = new window.JitsiMeetExternalAPI('8x8.vc', config);
+      const api = new window.JitsiMeetExternalAPI('meet-nso.diq.geoiq.ai', config);
       const newParticipantId = generateParticipantId();
       setParticipantId(newParticipantId);
 
